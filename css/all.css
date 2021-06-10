@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #dbc5b0;
+  }
+  .wrap{
+    margin: 100px auto;
+    width: 760px;
+    height: 500px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow:-20px 15px 10px #94938f;
+  }
+  .header{
+    height: auto;
+    width: 260px;
+    background-color: #334858;
+    border-radius: 20px 0px 0px 20px;
+  }
+  h2{
+    font-size: 100px;
+    color:#eeeeee;
+    margin: 20px;
+  }
+  .main{
+    display: flex;
+    width:500px;
+    flex-direction: column;
+    background-color: #f9a852;
+    border-radius: 0px 20px 20px 0px;
+  }
+  .top{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 10px 0px;
+  }
+  .addtext{
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px;
+    border: solid 5px #334858;
+    background-color: #f0f0f0;
+  }
+  .addbtn{
+    border-radius: 0px 20px 20px 0px;
+    width: 40px;
+    background-color: #334858;
+    color: #f0f0f0;
+    border: #334858;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .list{
+    margin: 0 40px;
+    padding: 20px;
+    OVERFLOW-Y:auto;
+  }
+  .list li{
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    border-left: solid 10px #334858;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .list li:hover{
+    box-shadow: 5px 5px 10px #7b868a;
+    transform: translateX(-5px)translateY(-5px);
+  }
+  .delete{
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+    padding: 10px 10px;
+    background-color: #334858;
+    color: #eee;
+  }
+  .delete:hover{
+    background-color: #be0027;
+    cursor: pointer;
+  }
+  .clear{
+    text-align:center;
+    }
+  .clear a{
+    text-decoration: none;
+    color: #334858;
+    font-weight: bold;
+  }
+  .clear a:hover{
+    color: #be0027
+  }
